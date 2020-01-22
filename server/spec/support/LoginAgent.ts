@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { SuperTest, Test } from 'supertest';
 import { UserDao } from '@daos';
 import { User, UserRoles } from '@entities';

@@ -1,6 +1,6 @@
 import app from '@server';
 import supertest from 'supertest';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 import { BAD_REQUEST, CREATED, OK, UNAUTHORIZED } from 'http-status-codes';
 import { Response, SuperTest, Test } from 'supertest';
