@@ -15,7 +15,6 @@
     "@server": "dist/Server"
   },
   "dependencies": {
-    "bcrypt": "^3.0.7",
     "bcryptjs": "^2.4.3",
     "command-line-args": "^5.1.1",
     "cookie-parser": "^1.4.4",
@@ -26,10 +25,12 @@
     "module-alias": "^2.2.2",
     "morgan": "^1.9.1",
     "randomstring": "^1.1.5",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "find": "^0.3.0",
+    "fs-extra": "^8.1.0",
+    "jasmine": "^3.5.0"
   },
   "devDependencies": {
-    "@types/bcrypt": "^3.0.0",
     "@types/bcryptjs": "^2.4.2",
     "@types/command-line-args": "^5.0.0",
     "@types/cookie-parser": "^1.4.2",
@@ -41,10 +42,7 @@
     "@types/morgan": "^1.7.37",
     "@types/node": "^12.12.14",
     "@types/randomstring": "^1.1.6",
-    "@types/supertest": "^2.0.8",
-    "find": "^0.3.0",
-    "fs-extra": "^8.1.0",
-    "jasmine": "^3.5.0",
+    "@types/supertest": "^2.0.8",    
     "jsonfile": "^5.0.0",
     "nodemon": "^2.0.1",
     "supertest": "^4.0.2",
